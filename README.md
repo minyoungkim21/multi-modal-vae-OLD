@@ -4,10 +4,10 @@
 
 
 ### 1) Setup (brief)
-- Two-modal paired image data by: 
-  private-1 = elevation, 
-  private-2 = illumination azimuth,
-  shared = (pose azimuth, id)
+- Two-modal paired image data by: <br />
+  1) private-1 = elevation, <br />
+  2) private-2 = illumination azimuth, <br />
+  3) shared = (pose azimuth, id) <br />
 
 
 ### 2) MM-VAE model
