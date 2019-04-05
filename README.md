@@ -84,7 +84,7 @@
 #### 4-d) MMPOE-VAE v2
 
 
-### 5) Cross-modal prediction: Given xI, infer zS, and zT ~ N(0,I) --> xT (changing the role of I and T)
+### 5) Cross-modal prediction: Given xI, infer zS, zT ~ N(0,I) --> xT (changing the role of I and T)
 
 #### 5-a) MuMo-VAE model
 
