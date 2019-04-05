@@ -14,39 +14,37 @@
 
 ### 2) Models (Competing)
 
+#### 2-a) MuMo-VAE model
 
-latent vector = (zI, zT, zS) <br />
-Two decoders: 1) pI(xI | zI, zS),  2) pT(xT | zT, zS) <br />
+- partition of latent variables = (zI, zT, zS) <br />
+- two decoders: 1) pI(xI | zI, zS),  2) pT(xT | zT, zS) <br />
+- 3 encoders (no parameter sharing): 1) qI(zI, zS | xI),  2) qT(zT, zS | xT),  3) q(zI, zT, zS | xI, xT) <br />
+- 3 VAE losses, one for each of {xI}, {xT}, and {(xI,xT)} <br />
 
-#### a) MuMo-VAE model
-
-3 encoders (no parameter sharing): 1) qI(zI, zS | xI),  2) qT(zT, zS | xT),  3) q(zI, zT, zS | xI, xT) <br />
-3 VAE losses, one for each of {xI}, {xT}, and {(xI,xT)} <br />
-
-#### b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
-
-No partitioning of , there is only one encoder model, q(z | xI, xT) <br />
-
-(At iter 80K)<br />
-
-![fixed3](https://user-images.githubusercontent.com/44901665/55333299-e83e5880-548e-11e9-9159-3aa8afd23cca.gif)<br />
-----<br />
-![fixed2](https://user-images.githubusercontent.com/44901665/55333312-eeccd000-548e-11e9-9300-5dc52994797b.gif)<br />
-----<br />
-![fixed1](https://user-images.githubusercontent.com/44901665/55333373-1a4fba80-548f-11e9-9817-8ad7850ec5dd.gif)<br />
-
-
-
-### 3) 
-(At iter 80K)<br />
+*Latent traversal from (xI,xT) (at iter 80K)<br />
 ![fixed3](https://user-images.githubusercontent.com/44901665/55332825-0d7e9700-548e-11e9-88a2-7ab8f150345b.gif)<br />
-----<br />
 ![fixed2](https://user-images.githubusercontent.com/44901665/55332885-2129fd80-548e-11e9-9af1-def6d2931b03.gif)<br />
-----<br />
 ![fixed1](https://user-images.githubusercontent.com/44901665/55332858-17a09580-548e-11e9-9864-61014125a9d1.gif)<br />
 
 
-#### 
+#### 2-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+    - no partitioning of latent variables, there is only one encoder model, q(z | xI, xT) <br />
+    - dim(z) = 10
+
+*Latent traversal from (xI,xT) (at iter 80K)<br />
+![fixed3](https://user-images.githubusercontent.com/44901665/55333299-e83e5880-548e-11e9-9159-3aa8afd23cca.gif)<br />
+![fixed2](https://user-images.githubusercontent.com/44901665/55333312-eeccd000-548e-11e9-9300-5dc52994797b.gif)<br />
+![fixed1](https://user-images.githubusercontent.com/44901665/55333373-1a4fba80-548f-11e9-9817-8ad7850ec5dd.gif)<br />
+
+
+#### 2-c) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+
+
+### 3) Results 
+
+
 
 
 
