@@ -70,7 +70,7 @@
 #### R2-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 #### R2-c) MMPOE-VAE v1
 #### R2-d) MMPOE-VAE v2
-### R3) Cross-modal prediction: Given xI, infer zS, zT ~ N(0,I) -> xT (changing the role of I and T)
+### R3) Cross-modal synthesis: Given xI, infer zS, zT ~ N(0,I) -> xT (changing the role of I and T)
 #### R3-a) MuMo-VAE model
 #### R3-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 Of course, N/A
@@ -112,5 +112,31 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 #### Trv-d) MMPOE-VAE v2
 
+---
+
+### Pure synthesis: z or (zI,zS,zT) ~ N(0,I) -> (xI,xT)
+
+#### PureSynth-a) MuMo-VAE model
+
+#### PureSynth-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+#### PureSynth-c) MMPOE-VAE v1
+
+#### PureSynth-d) MMPOE-VAE v2
+
+
+---
+
+### Cross-modal synthesis: Given xI, infer zS, zT ~ N(0,I) -> xT (changing the role of I and T)
+
+#### CMSynth--a) MuMo-VAE model
+
+#### CMSynth-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+Of course, N/A
+
+#### CMSynth-c) MMPOE-VAE v1
+
+#### CMSynth-d) MMPOE-VAE v2
 
 
