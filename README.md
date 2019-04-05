@@ -60,45 +60,26 @@
 
 
 <!--
-
-### R1) Reconstruction: (xI,xT) --> z or (zI,zS,zT) --> (xI',xT')
-
+### R1) Reconstruction: (xI,xT) -> z or (zI,zS,zT) -> (xI',xT')
 #### R1-a) MuMo-VAE model
-
 #### R1-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
-
 #### R1-c) MMPOE-VAE v1
-
 #### R1-d) MMPOE-VAE v2
-
-
-
-### R2) Pure synthesis: z or (zI,zS,zT) ~ N(0,I) --> (xI,xT)
-
+### R2) Pure synthesis: z or (zI,zS,zT) ~ N(0,I) -> (xI,xT)
 #### R2-a) MuMo-VAE model
-
 #### R2-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
-
 #### R2-c) MMPOE-VAE v1
-
 #### R2-d) MMPOE-VAE v2
-
-
-### R3) Cross-modal prediction: Given xI, infer zS, zT ~ N(0,I) --> xT (changing the role of I and T)
-
+### R3) Cross-modal prediction: Given xI, infer zS, zT ~ N(0,I) -> xT (changing the role of I and T)
 #### R3-a) MuMo-VAE model
-
 #### R3-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
-
 Of course, N/A
-
 #### R3-c) MMPOE-VAE v1
-
 #### R3-d) MMPOE-VAE v2
-
 -->
 
-### Latent traversal: (xI,xT) --> z or (zI,zS,zT), from which traverse along each axis --> (xI',xT')
+
+### Latent traversal: (xI,xT) -> z or (zI,zS,zT), from which traverse along each axis -> (xI',xT')
 
 #### Trv-a) MuMo-VAE model
 
