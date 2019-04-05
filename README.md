@@ -80,7 +80,7 @@ Of course, N/A
 
 ---
 
-### Latent traversal: (xI,xT) -> z or (zI,zS,zT), from which traverse along each axis -> (xI',xT')
+### + Latent traversal: (xI,xT) -> z or (zI,zS,zT), from which traverse along each axis -> (xI',xT')
 
 #### Trv-a) MuMo-VAE model
 
@@ -114,7 +114,7 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 ---
 
-### Pure synthesis: z or (zI,zS,zT) ~ N(0,I) -> (xI,xT)
+### + Pure synthesis: z or (zI,zS,zT) ~ N(0,I) -> (xI,xT)
 
 #### PureSynth-a) MuMo-VAE model
 
@@ -127,7 +127,7 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 ---
 
-### Cross-modal synthesis: Given xI, infer zS, zT ~ N(0,I) -> xT (changing the role of I and T)
+### + Cross-modal synthesis: Given xI, infer zS, zT ~ N(0,I) -> xT (changing the role of I and T)
 
 #### CMSynth--a) MuMo-VAE model
 
