@@ -112,6 +112,10 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 
 #### 6-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 
+3 instances, each: <br />
+True xI | xI w/ z(1) change |  xI w/ z(2) | ... | xI w/ z(10) <br />
+True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
+
 (at iter 300K) <br />
 ![fixed3](https://user-images.githubusercontent.com/44901665/55629683-b3424680-57ab-11e9-9aa2-38293cd12790.gif)<br />
 ![fixed2](https://user-images.githubusercontent.com/44901665/55629680-afaebf80-57ab-11e9-911d-b6ffda29fae3.gif)<br />
