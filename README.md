@@ -78,6 +78,7 @@ Of course, N/A
 #### R3-d) MMPOE-VAE v2
 -->
 
+---
 
 ### Latent traversal: (xI,xT) -> z or (zI,zS,zT), from which traverse along each axis -> (xI',xT')
 
