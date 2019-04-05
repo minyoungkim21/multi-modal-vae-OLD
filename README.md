@@ -22,11 +22,12 @@
 - 3 encoders (no parameter sharing): 1) qI(zI, zS | xI),  2) qT(zT, zS | xT),  3) q(zI, zT, zS | xI, xT) <br />
 - 3 VAE losses, one for each of {xI}, {xT}, and {(xI,xT)} <br />
 
+<!--
 *Latent traversal from (xI,xT) (at iter 80K)<br />
 ![fixed3](https://user-images.githubusercontent.com/44901665/55332825-0d7e9700-548e-11e9-88a2-7ab8f150345b.gif)<br />
 ![fixed2](https://user-images.githubusercontent.com/44901665/55332885-2129fd80-548e-11e9-9af1-def6d2931b03.gif)<br />
 ![fixed1](https://user-images.githubusercontent.com/44901665/55332858-17a09580-548e-11e9-9864-61014125a9d1.gif)<br />
-
+-->
 
 #### 2-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 
@@ -35,11 +36,12 @@
 - there is only one decoder model p(xI, xT | z) <br />
 - dim(z) = 10
 
+<!--
 *Latent traversal from (xI,xT) (at iter 80K)<br />
 ![fixed3](https://user-images.githubusercontent.com/44901665/55333299-e83e5880-548e-11e9-9159-3aa8afd23cca.gif)<br />
 ![fixed2](https://user-images.githubusercontent.com/44901665/55333312-eeccd000-548e-11e9-9300-5dc52994797b.gif)<br />
 ![fixed1](https://user-images.githubusercontent.com/44901665/55333373-1a4fba80-548f-11e9-9817-8ad7850ec5dd.gif)<br />
-
+-->
 
 #### 2-c) MMPOE-VAE v1: induce q(zI, zT, zS | xI, xT) from Product-of-Experts
 
@@ -59,10 +61,51 @@
 
 
 
-### 3) Results 
+### 3) Reconstruction: (xI,xT) --> z or (zI,zS,zT) --> (xI',xT')
+
+#### 3-a) MuMo-VAE model
+
+#### 3-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+#### 3-c) MMPOE-VAE v1
+
+#### 3-d) MMPOE-VAE v2
 
 
 
+### 4) Pure synthesis: z or (zI,zS,zT) ~ N(0,I) --> (xI,xT)
+
+#### 4-a) MuMo-VAE model
+
+#### 4-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+#### 4-c) MMPOE-VAE v1
+
+#### 4-d) MMPOE-VAE v2
+
+
+### 5) Cross-modal prediction: Given xI, infer zS, and zT ~ N(0,I) --> xT (changing the role of I and T)
+
+#### 5-a) MuMo-VAE model
+
+#### 5-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+Of course, N/A
+
+#### 5-c) MMPOE-VAE v1
+
+#### 5-d) MMPOE-VAE v2
+
+
+### 6) Latent traversal: (xI,xT) --> z or (zI,zS,zT), from which traverse along each axis --> (xI',xT')
+
+#### 6-a) MuMo-VAE model
+
+#### 6-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+#### 6-c) MMPOE-VAE v1
+
+#### 6-d) MMPOE-VAE v2
 
 
 
