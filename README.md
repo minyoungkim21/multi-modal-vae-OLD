@@ -16,8 +16,8 @@
 
 #### 2-a) MuMo-VAE model
 
-  - partition of latent variables = (zI, zT, zS) <br />
-  - dim(zI) = 2, dim(zT) = 2, dim(zS) = 5 <br />
+- partition of latent variables = (zI, zT, zS) <br />
+- dim(zI) = 2, dim(zT) = 2, dim(zS) = 5 <br />
 - 2 decoders: 1) pI(xI | zI, zS),  2) pT(xT | zT, zS) <br />
 - 3 encoders (no parameter sharing): 1) qI(zI, zS | xI),  2) qT(zT, zS | xT),  3) q(zI, zT, zS | xI, xT) <br />
 - 3 VAE losses, one for each of {xI}, {xT}, and {(xI,xT)} <br />
@@ -101,7 +101,17 @@ Of course, N/A
 
 #### 6-a) MuMo-VAE model
 
+(at iter 300K) <br />
+![fixed3](https://user-images.githubusercontent.com/44901665/55629573-6b232400-57ab-11e9-8cef-b84f3a651b9a.gif)<br />
+![fixed2](https://user-images.githubusercontent.com/44901665/55629559-6494ac80-57ab-11e9-9ab3-4947889314c6.gif)<br />
+![fixed1](https://user-images.githubusercontent.com/44901665/55629533-53e43680-57ab-11e9-87fd-82af64fe49a6.gif)<br />
+
 #### 6-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+(at iter 300K) <br />
+![fixed3](https://user-images.githubusercontent.com/44901665/55629683-b3424680-57ab-11e9-9aa2-38293cd12790.gif)<br />
+![fixed2](https://user-images.githubusercontent.com/44901665/55629680-afaebf80-57ab-11e9-911d-b6ffda29fae3.gif)<br />
+![fixed1](https://user-images.githubusercontent.com/44901665/55629640-97d73b80-57ab-11e9-8f76-36f2cc3561c4.gif)<br />
 
 #### 6-c) MMPOE-VAE v1
 
