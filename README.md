@@ -110,6 +110,8 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 ![fixed2](https://user-images.githubusercontent.com/44901665/55629559-6494ac80-57ab-11e9-9ab3-4947889314c6.gif)<br />
 ![fixed1](https://user-images.githubusercontent.com/44901665/55629533-53e43680-57ab-11e9-87fd-82af64fe49a6.gif)<br />
 
+(note: quite accurately identify private and shared factors, but computational issue of having dyadic inf net) <br />
+
 #### 6-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 
 3 instances, each: <br />
@@ -120,6 +122,8 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 ![fixed3](https://user-images.githubusercontent.com/44901665/55629683-b3424680-57ab-11e9-9aa2-38293cd12790.gif)<br />
 ![fixed2](https://user-images.githubusercontent.com/44901665/55629680-afaebf80-57ab-11e9-911d-b6ffda29fae3.gif)<br />
 ![fixed1](https://user-images.githubusercontent.com/44901665/55629640-97d73b80-57ab-11e9-8f76-36f2cc3561c4.gif)<br />
+
+(note: variation of z(4) or z(7), none of them shared factors, results in changes in both xI and xT)<br />
 
 #### 6-c) MMPOE-VAE v1
 
