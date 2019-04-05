@@ -14,9 +14,9 @@
 
 ### 2) Models (Competing)
 
-..#### 2-a) MuMo-VAE model
+.. #### 2-a) MuMo-VAE model
 
-- partition of latent variables = (zI, zT, zS) <br />
+.... - partition of latent variables = (zI, zT, zS) <br />
 - dim(zI) = 2, dim(zT) = 2, dim(zS) = 5 <br />
 - 2 decoders: 1) pI(xI | zI, zS),  2) pT(xT | zT, zS) <br />
 - 3 encoders (no parameter sharing): 1) qI(zI, zS | xI),  2) qT(zT, zS | xT),  3) q(zI, zT, zS | xI, xT) <br />
