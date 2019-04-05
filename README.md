@@ -118,7 +118,13 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 #### PureSynth-a) MuMo-VAE model
 
+[xI, xT] <br />
+![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55635682-38802800-57b9-11e9-9719-7b7a650c90c5.jpg)<br />
+
 #### PureSynth-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+
+[xI, xT] <br />
+![synth_300000](https://user-images.githubusercontent.com/44901665/55635718-5057ac00-57b9-11e9-9019-00d83e47a70c.jpg)<br />
 
 #### PureSynth-c) MMPOE-VAE v1
 
