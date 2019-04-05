@@ -59,7 +59,7 @@
 - (why v2?) 3 VAE losses, one for each of {xI}, {xT}, and {(xI,xT)} <br />
 
 
-
+<!--
 
 ### R1) Reconstruction: (xI,xT) --> z or (zI,zS,zT) --> (xI',xT')
 
@@ -96,10 +96,11 @@ Of course, N/A
 
 #### R3-d) MMPOE-VAE v2
 
+-->
 
-### R4) Latent traversal: (xI,xT) --> z or (zI,zS,zT), from which traverse along each axis --> (xI',xT')
+### Latent traversal: (xI,xT) --> z or (zI,zS,zT), from which traverse along each axis --> (xI',xT')
 
-#### R4-a) MuMo-VAE model
+#### Trv-a) MuMo-VAE model
 
 3 instances, each: <br />
 True xI | xI w/ zI(1) change |  xI w/ zI(2) | xI w/ zS(1) | xI w/ zS(2) | ... | xI w/ zT(1) | xI w/ zT(2) <br />
@@ -112,7 +113,7 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 
 (note: quite accurately identify private and shared factors, but computational issue of having dyadic inf net) <br />
 
-#### R4-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
+#### Trv-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 
 3 instances, each: <br />
 True xI | xI w/ z(1) change |  xI w/ z(2) | ... | xI w/ z(10) <br />
@@ -125,9 +126,9 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 (note: variation of z(4) or z(7), none of them shared factors, results in changes in both xI and xT)<br />
 
-#### R4-c) MMPOE-VAE v1
+#### Trv-c) MMPOE-VAE v1
 
-#### R4-d) MMPOE-VAE v2
+#### Trv-d) MMPOE-VAE v2
 
 
 
