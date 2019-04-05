@@ -137,6 +137,15 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 #### CMSynth--a) MuMo-VAE model
 
+XI -> XT 
+[XI | three synthesized XT images]
+![synth_cross_modal_I2T_300000](https://user-images.githubusercontent.com/44901665/55636199-45514b80-57ba-11e9-95e4-8c67c57e6491.jpg)
+
+XT -> XI 
+[XT | three synthesized XI images]
+![synth_cross_modal_T2I_300000](https://user-images.githubusercontent.com/44901665/55636216-4edab380-57ba-11e9-9049-3d945e2d2777.jpg)
+
+
 #### CMSynth-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 
 Of course, N/A
