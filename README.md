@@ -14,7 +14,7 @@
 
 ### 2) Models (Competing)
 
-....#### 2-a) MuMo-VAE model
+..#### 2-a) MuMo-VAE model
 
 - partition of latent variables = (zI, zT, zS) <br />
 - dim(zI) = 2, dim(zT) = 2, dim(zS) = 5 <br />
