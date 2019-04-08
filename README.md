@@ -110,6 +110,16 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 #### Trv-c) MMPOE-VAE v1
 
+3 instances, each: <br />
+True xI | xI w/ zI(1) change |  xI w/ zI(2) | xI w/ zS(1) | xI w/ zS(2) | ... | xI w/ zT(1) | xI w/ zT(2) <br />
+True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | xT w/ zT(1) | xT w/ zT(2) <br />
+
+![fixed3](https://user-images.githubusercontent.com/44901665/55707692-1a464200-59dc-11e9-9dd7-74e4b2689830.gif)
+![fixed2](https://user-images.githubusercontent.com/44901665/55707696-1c100580-59dc-11e9-9f5c-acc72ba4bc16.gif)
+![fixed1](https://user-images.githubusercontent.com/44901665/55707689-187c7e80-59dc-11e9-8d32-fd81339967f0.gif)
+
+(note: problematic! eg, zS(1) learns elevation factor, but it should be a private factor in zI)<br />
+
 #### Trv-d) MMPOE-VAE v2
 
 ---
