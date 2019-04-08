@@ -193,4 +193,10 @@ XT -> XI
 
 #### CMSynth-d) MMPOE-VAE v2
 
+XI -> XT 
+[XI | three randomly synthesized XT images]
+![synth_cross_modal_I2T_300000](https://user-images.githubusercontent.com/44901665/55710148-e0783a00-59e1-11e9-8988-66fe765bb521.jpg) <br />
 
+XT -> XI 
+[XT | three randomly synthesized XI images]
+![synth_cross_modal_T2I_300000](https://user-images.githubusercontent.com/44901665/55710163-ea01a200-59e1-11e9-9abd-e5b63a06d688.jpg) <br />
