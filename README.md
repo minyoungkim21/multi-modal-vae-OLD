@@ -148,8 +148,13 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 
 #### PureSynth-c) MMPOE-VAE v1
 
+[xI, xT] <br />
+![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55709210-ba519a80-59df-11e9-9bec-fa42ceafc536.jpg)
+
 #### PureSynth-d) MMPOE-VAE v2
 
+[xI, xT] <br />
+![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55709220-c2a9d580-59df-11e9-91f6-d2f17400f7fb.jpg)
 
 ---
 
