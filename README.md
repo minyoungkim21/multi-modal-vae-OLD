@@ -58,6 +58,21 @@
 - The same setup as MMPOE-VAE-v1, but ...
 - (why v2?) 3 VAE losses, one for each of {xI}, {xT}, and {(xI,xT)} <br />
 
+#### 2-e) WG-VAE v1: no private variables; induce q(z | xI, xT) from Product-of-Experts
+
+- Wu-Goodman's multi-modal VAE
+- no partition of latent variables, just shared z <br />
+- dim(z) = 10 <br />
+- 2 decoders: 1) pI(xI | z),  2) pT(xT | z) <br />
+- 2 encoders (no parameter sharing): 1) qI(z | xI),  2) qT(z | xT) <br />
+- q(z | xI, xT) \propto p(z) * qI(z|xI) * qT(z|xT) <br />
+- (why v1?) 1 VAE loss, for {(xI,xT)} <br />
+
+#### 2-f) WG-VAE v2: no private variables; induce q(z | xI, xT) from Product-of-Experts
+
+- The same setup as WG-VAE-v1, but ...
+- (why v2?) 3 VAE losses, one for each of {xI}, {xT}, and {(xI,xT)} <br />
+- So, the setup is pretty much the same as the original Wu-Goodman's multi-modal VAE
 
 <!--
 ### R1) Reconstruction: (xI,xT) -> z or (zI,zS,zT) -> (xI',xT')
