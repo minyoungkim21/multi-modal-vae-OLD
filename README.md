@@ -191,6 +191,8 @@ XT -> XI
 [XT | three randomly synthesized XI images]
 ![synth_cross_modal_T2I_300000](https://user-images.githubusercontent.com/44901665/55710123-cf2f2d80-59e1-11e9-9bc2-b14b4e2ae684.jpg) <br />
 
+(note: again, v1 suffers from poor quality of synthesized images. It seems to be necessary to take into account the marginal data {xI} and {xT} in the training..)
+
 #### CMSynth-d) MMPOE-VAE v2
 
 XI -> XT 
