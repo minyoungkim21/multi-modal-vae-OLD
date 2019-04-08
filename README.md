@@ -179,9 +179,17 @@ XT -> XI
 
 #### CMSynth-b) Vanilla VAE regarding (xI,xT) as (concatenated) observation
 
-Of course, N/A
+Of course, N/A <br />
 
 #### CMSynth-c) MMPOE-VAE v1
+
+XI -> XT 
+[XI | three randomly synthesized XT images]
+![synth_cross_modal_I2T_300000](https://user-images.githubusercontent.com/44901665/55710107-c0e11180-59e1-11e9-8278-bf118dff33c6.jpg) <br />
+
+XT -> XI 
+[XT | three randomly synthesized XI images]
+![synth_cross_modal_T2I_300000](https://user-images.githubusercontent.com/44901665/55710123-cf2f2d80-59e1-11e9-9bc2-b14b4e2ae684.jpg) <br />
 
 #### CMSynth-d) MMPOE-VAE v2
 
