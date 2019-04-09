@@ -147,6 +147,19 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 
 (note: better identify/discern the private and shared factors, which implies that the loss terms for marginal data, ie, {xI} and {xT}, are necessary?)<br />
 
+#### Trv-e) WG-VAE v1
+
+3 instances, each: <br />
+True xI | xI w/ z(1) change |  xI w/ z(2) | ... | xI w/ z(10) <br />
+True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
+
+#### Trv-f) WG-VAE v2
+
+3 instances, each: <br />
+True xI | xI w/ z(1) change |  xI w/ z(2) | ... | xI w/ z(10) <br />
+True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
+
+
 ---
 
 ### + Pure synthesis: z or (zI,zS,zT) ~ N(0,I) -> (xI,xT)
@@ -172,6 +185,16 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 
 [xI, xT] <br />
 ![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55709220-c2a9d580-59df-11e9-91f6-d2f17400f7fb.jpg)
+
+
+#### PureSynth-e) WG-VAE v1
+
+[xI, xT] <br />
+
+#### PureSynth-f) WG-VAE v2
+
+[xI, xT] <br />
+
 
 ---
 
@@ -217,3 +240,25 @@ XI -> XT
 XT -> XI 
 [XT | three randomly synthesized XI images]
 ![synth_cross_modal_T2I_300000](https://user-images.githubusercontent.com/44901665/55710163-ea01a200-59e1-11e9-9abd-e5b63a06d688.jpg) <br />
+
+#### CMSynth-e) WG-VAE v1
+
+XI -> XT 
+[XI | a synthesized XT image]
+
+
+XT -> XI 
+[XT | a synthesized XI image]
+
+
+#### CMSynth-f) WG-VAE v2
+
+XI -> XT 
+[XI | a synthesized XT image]
+
+
+XT -> XI 
+[XT | a synthesized XI image]
+
+
+
