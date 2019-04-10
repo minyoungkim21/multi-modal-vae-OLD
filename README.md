@@ -260,20 +260,20 @@ XT -> XI
 
 XI -> XT 
 [XI | a synthesized XT image]
-
+![synth_cross_modal_I2T_300000](https://user-images.githubusercontent.com/44901665/55863988-81e2c580-5b73-11e9-9b98-54ea51953cc4.jpg) <br />
 
 XT -> XI 
 [XT | a synthesized XI image]
+![synth_cross_modal_T2I_300000](https://user-images.githubusercontent.com/44901665/55864031-96bf5900-5b73-11e9-865b-699f695d6b4c.jpg) <br />
 
 
 #### CMSynth-f) WG-VAE v2
 
 XI -> XT 
 [XI | a synthesized XT image]
-
+![synth_cross_modal_I2T_300000](https://user-images.githubusercontent.com/44901665/55864064-a2128480-5b73-11e9-9e58-3bcf8ab76ce0.jpg) <br />
 
 XT -> XI 
 [XT | a synthesized XI image]
-
-
+![synth_cross_modal_T2I_300000](https://user-images.githubusercontent.com/44901665/55864070-a5a60b80-5b73-11e9-9dc3-5b7555e543f4.jpg) <br />
 
