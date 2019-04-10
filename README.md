@@ -187,23 +187,26 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 #### PureSynth-c) MMPOE-VAE v1
 
 [xI, xT] <br />
-![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55709210-ba519a80-59df-11e9-9bec-fa42ceafc536.jpg)
+![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55709210-ba519a80-59df-11e9-9bec-fa42ceafc536.jpg)<br />
 
 (note: the quality of generated images is not satisfactory.. especially when compared to the v2 model below)
 
 #### PureSynth-d) MMPOE-VAE v2
 
 [xI, xT] <br />
-![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55709220-c2a9d580-59df-11e9-91f6-d2f17400f7fb.jpg)
+![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55709220-c2a9d580-59df-11e9-91f6-d2f17400f7fb.jpg)<br />
 
 
 #### PureSynth-e) WG-VAE v1
 
 [xI, xT] <br />
+![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55863589-c15ce200-5b72-11e9-8077-2fa00d09e9cf.jpg)<br />
+
 
 #### PureSynth-f) WG-VAE v2
 
 [xI, xT] <br />
+![synth_pure_300000](https://user-images.githubusercontent.com/44901665/55863609-ccb00d80-5b72-11e9-9283-829964adc48f.jpg)<br />
 
 
 ---
