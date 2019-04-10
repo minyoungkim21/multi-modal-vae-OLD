@@ -97,13 +97,14 @@ Of course, N/A
 
 ### + Latent traversal: (xI,xT) -> z or (zI,zS,zT), from which traverse along each axis -> (xI',xT')
 
+(at iter 300K) <br />
+
 #### Trv-a) MuMo-VAE model
 
 3 instances, each: <br />
 True xI | xI w/ zI(1) change |  xI w/ zI(2) | xI w/ zS(1) | xI w/ zS(2) | ... | xI w/ zT(1) | xI w/ zT(2) <br />
 True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | xT w/ zT(1) | xT w/ zT(2) <br />
 
-(at iter 300K) <br />
 ![fixed3](https://user-images.githubusercontent.com/44901665/55629573-6b232400-57ab-11e9-8cef-b84f3a651b9a.gif)<br />
 ![fixed2](https://user-images.githubusercontent.com/44901665/55629559-6494ac80-57ab-11e9-9ab3-4947889314c6.gif)<br />
 ![fixed1](https://user-images.githubusercontent.com/44901665/55629533-53e43680-57ab-11e9-87fd-82af64fe49a6.gif)<br />
@@ -116,7 +117,6 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 True xI | xI w/ z(1) change |  xI w/ z(2) | ... | xI w/ z(10) <br />
 True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
-(at iter 300K) <br />
 ![fixed3](https://user-images.githubusercontent.com/44901665/55629683-b3424680-57ab-11e9-9aa2-38293cd12790.gif)<br />
 ![fixed2](https://user-images.githubusercontent.com/44901665/55629680-afaebf80-57ab-11e9-911d-b6ffda29fae3.gif)<br />
 ![fixed1](https://user-images.githubusercontent.com/44901665/55629640-97d73b80-57ab-11e9-8f76-36f2cc3561c4.gif)<br />
@@ -172,6 +172,8 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
 ### + Pure synthesis: z or (zI,zS,zT) ~ N(0,I) -> (xI,xT)
 
+(at iter 300K) <br />
+
 #### PureSynth-a) MuMo-VAE model
 
 [xI, xT] <br />
@@ -207,6 +209,8 @@ True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 ---
 
 ### + Cross-modal synthesis: Given xI, infer zS, zT ~ N(0,I) -> xT (changing the role of I and T)
+
+(at iter 300K) <br />
 
 #### CMSynth--a) MuMo-VAE model
 
