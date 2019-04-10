@@ -153,12 +153,20 @@ True xT | xT w/ zI(1) change |  xT w/ zI(2) | xT w/ zS(1) | xT w/ zS(2) | ... | 
 True xI | xI w/ z(1) change |  xI w/ z(2) | ... | xI w/ z(10) <br />
 True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
+
+![fixed3](https://user-images.githubusercontent.com/44901665/55861783-054de800-5b6f-11e9-81f9-4dde8d71347f.gif)
+![fixed2](https://user-images.githubusercontent.com/44901665/55861768-febf7080-5b6e-11e9-9560-1107a7c60450.gif)
+![fixed1](https://user-images.githubusercontent.com/44901665/55861753-f830f900-5b6e-11e9-8912-2fba57c4aa5f.gif)
+
 #### Trv-f) WG-VAE v2
 
 3 instances, each: <br />
 True xI | xI w/ z(1) change |  xI w/ z(2) | ... | xI w/ z(10) <br />
 True xT | xT w/ z(1) change |  xT w/ z(2) | ... | xT w/ z(10) <br />
 
+![fixed3](https://user-images.githubusercontent.com/44901665/55861845-28789780-5b6f-11e9-9154-e5490b6555c6.gif)
+![fixed2](https://user-images.githubusercontent.com/44901665/55861850-2b738800-5b6f-11e9-8f85-21d4b8e21e47.gif)
+![fixed1](https://user-images.githubusercontent.com/44901665/55861825-21ea2000-5b6f-11e9-90b2-ac322220357c.gif)
 
 ---
 
