@@ -1,4 +1,4 @@
-# Multi-Modal VAE
+# Multi-Modal VAE (THIS IS OLD VERSION)
 
 ## A very simple experiment with 3D-Face dataset
 
